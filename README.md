@@ -1,6 +1,12 @@
 # Name-Ensembl-ID
 A script that turns a .csv of human Ensembl IDs to their respective gene name.
 
+# Libraries
+You must install the python library "pybiomart" to use this script. It can not be installed through anaconda.
+```bash
+ $ pip install pybiomart
+```
+
 # Command Use Example
 
 `hg38_RNAseq_edgeR.csv`:
